@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqigl6ljbxmin"]
+
+[ext_resource type="PackedScene" uid="uid://dtjxc75ld6g0a" path="res://recource/drag_and_drop with grid .tscn" id="1_qrb4v"]
+[ext_resource type="PackedScene" uid="uid://dxvbjf4h4e8mn" path="res://recource/drop_zone.tscn" id="2_ybxkh"]
+
+[node name="grid drag and drop test" type="Node2D"]
+
+[node name="Drop Zone" parent="." instance=ExtResource("2_ybxkh")]
+position = Vector2(241, 133)
+
+[node name="Drop Zone2" parent="." instance=ExtResource("2_ybxkh")]
+position = Vector2(249, 465)
+
+[node name="Drop Zone3" parent="." instance=ExtResource("2_ybxkh")]
+position = Vector2(968, 125)
+
+[node name="drag and drop object" parent="." instance=ExtResource("1_qrb4v")]
+position = Vector2(622, 315)

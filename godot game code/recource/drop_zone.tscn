@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxvbjf4h4e8mn"]
+
+[ext_resource type="Script" path="res://scripts/drop_zone.gd" id="1_cay08"]
+
+[node name="Drop Zone" type="Marker2D" groups=["zone"]]
+script = ExtResource("1_cay08")
