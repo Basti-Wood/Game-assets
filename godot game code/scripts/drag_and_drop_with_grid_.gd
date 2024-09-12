@@ -1,5 +1,6 @@
 extends Node2D
 
+
 var selected = false
 var rest_point
 var rest_nodes = []
@@ -30,6 +31,8 @@ func _input(event: InputEvent) -> void:
 			for child in rest_nodes:
 				var distance = global_position.distance_to(child.global_position)
 				if distance < shortest_dist:
-					child.select()
-					rest_point = child.global_position
-					shortest_dist = distance
+					# Ensure the child has the 'select' method before calling it
+					if child.has_method("select"):
+						child.select()
+						rest_point = child.global_position
+						shortest_dist = distance
