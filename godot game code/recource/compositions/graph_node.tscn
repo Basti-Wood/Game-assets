@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://db28mbb1pwrs6"]
+
+[node name="GraphNode" type="GraphNode"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 281.0
+offset_top = 141.0
+offset_right = -550.0
+offset_bottom = -381.0
+grow_horizontal = 2
+grow_vertical = 2
+resizable = true
+title = "simply a node"
+ignore_invalid_connection_type = true
+slot/0/left_enabled = true
+slot/0/left_type = 0
+slot/0/left_color = Color(0, 1, 1, 1)
+slot/0/left_icon = null
+slot/0/right_enabled = true
+slot/0/right_type = 0
+slot/0/right_color = Color(1, 1, 1, 1)
+slot/0/right_icon = null
+slot/0/draw_stylebox = false
+
+[node name="TextEdit" type="TextEdit" parent="."]
+custom_minimum_size = Vector2(40, 69)
+layout_mode = 2

@@ -14,5 +14,11 @@ position = Vector2(249, 465)
 [node name="Drop Zone3" parent="." instance=ExtResource("2_ybxkh")]
 position = Vector2(968, 125)
 
+[node name="Drop Zone4" parent="." instance=ExtResource("2_ybxkh")]
+position = Vector2(947, 582)
+
+[node name="Drop Zone5" parent="." instance=ExtResource("2_ybxkh")]
+position = Vector2(279, 554)
+
 [node name="drag and drop object" parent="." instance=ExtResource("1_qrb4v")]
 position = Vector2(622, 315)
